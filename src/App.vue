@@ -1,11 +1,8 @@
 <template>
-  <div style="text-align: left; width: 400px">
-    TODO
-  </div>
+  <router-view></router-view>
 </template>
 
 <script>
-
 export default {
   name: 'App',
 }
