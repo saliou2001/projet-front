@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       totalTime: 60,     // Durée initiale du compte à rebours en secondes (1 minute)
-      time: 360,          // Temps restant en secondes
+      time: 10,        // Temps restant en secondes
       timer: null,       // Référence à l'intervalle du compte à rebours
       isActive: false,   // Indicateur si le chrono est actif
     };

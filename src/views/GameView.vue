@@ -127,7 +127,7 @@ export default {
         console.error("Error while fetching word:", error);
       }
     },
-    async   checkWordValid(wordCheck) {
+    async  checkWordValid(wordCheck) {
      const response = await axios
          .post("https://vue-project-backend-eta.vercel.app/api/check-word", {
            word: wordCheck.toLowerCase(),
